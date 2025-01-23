@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading Screen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Spinner -->
+    <div id="loading-screen">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main-content" style="display: none;">
+        <header>
+            <h1>Welcome to My Website</h1>
+        </header>
+        <section>
+            <h2>Section 1</h2>
+            <p>This is the first section of the page.</p>
+        </section>
+        <section>
+            <h2>Section 2</h2>
+            <p>This is the second section of the page.</p>
+        </section>
+    </div>
+
+    <script>
+        // Wait for 3 seconds before hiding the loading screen and showing the main content
+        window.onload = function() {
+            setTimeout(function() {
+                document.getElementById('loading-screen').style.display = 'none';
+                document.getElementById('main-content').style.display = 'block';
+            }, 3000); // 3000ms = 3 seconds
+        };
+    </script>
+</body>
+</html>

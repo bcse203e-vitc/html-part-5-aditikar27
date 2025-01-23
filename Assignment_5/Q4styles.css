@@ -1,0 +1,108 @@
+/* General reset and container */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Horizontal Navigation */
+.horizontal-nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+.horizontal-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.horizontal-nav li {
+    position: relative;
+}
+
+.horizontal-nav a {
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.horizontal-nav a:hover {
+    background-color: #575757;
+}
+
+.horizontal-nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.horizontal-nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.horizontal-nav .dropdown-content li a {
+    padding: 12px 16px;
+}
+
+.horizontal-nav .dropdown-content li a:hover {
+    background-color: #575757;
+}
+
+/* Vertical Navigation */
+.vertical-nav {
+    background-color: #333;
+    width: 200px;
+    padding: 10px;
+}
+
+.vertical-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.vertical-nav li {
+    position: relative;
+}
+
+.vertical-nav a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.vertical-nav a:hover {
+    background-color: #575757;
+}
+
+.vertical-nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.vertical-nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.vertical-nav .dropdown-content li a {
+    padding: 12px 16px;
+}
+
+.vertical-nav .dropdown-content li a:hover {
+    background-color: #575757;
+}

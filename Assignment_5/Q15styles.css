@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(45deg, rgb(255, 157, 214), rgb(255, 214, 138), rgb(255, 255, 157), rgb(172, 255, 172), rgb(132, 220, 241), rgb(205, 146, 233));
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.gradient-header h1 {
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+div{
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    
+}
